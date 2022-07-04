@@ -21,3 +21,16 @@ body {
 .controls img {
   margin: 0.5rem;
 }
+@media (max-width: 1024px) {
+  .controls {
+    width: 100%;
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .controls {
+    max-width: 300px;
+    min-height: 200px;
+  }
+}
