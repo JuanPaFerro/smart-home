@@ -9,6 +9,15 @@ const Modal = () => {
       <h1 class="text-2xl lg:text-4xl m-0 text-center font-bold">
         {"Main Lounge & Dining Room"}
       </h1>
+      <div class="flex flex-col lg:flex-row lg:gap-5 justify-center items-center w-full mt-8 lg:mt-16 mb-0 lg:my-16">
+        <div class="grid place-items-center w-full lg:w-4/6">
+          <img
+            class="w-full'"
+            src="https://i.ibb.co/09fmVRK/plan.png"
+            alt="plan"
+          />
+        </div>
+      </div>
     </div>
   );
 };
