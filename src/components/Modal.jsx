@@ -1,4 +1,5 @@
 import React from "react";
+import CardsContainer from "./CardsContainer";
 
 const Modal = () => {
   return (
@@ -17,6 +18,7 @@ const Modal = () => {
             alt="plan"
           />
         </div>
+        <CardsContainer />
       </div>
     </div>
   );
